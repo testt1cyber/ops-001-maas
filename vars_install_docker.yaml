@@ -1,5 +1,0 @@
----
- - vars:
-    - docker-ce
-    - docker-ce-cli
-    - containerd.io
