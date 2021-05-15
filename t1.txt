@@ -1,0 +1,20 @@
+۱− رنج ۲۵۴ تا میتونیم داشته باشیم که اگر مس رو کم کنیم availability نودها میشه ۲۵۳ تا
+
+
+
+۲− با اسم مس برای مثال http://10.0.0.2:5240/MAAS
+
+
+۳− DHCP server is contacted
+kernel and initrd are received over TFTP
+machine boots
+initrd mounts a Squashfs image ephemerally over HTTP
+cloud-init runs built-in and custom commissioning scripts
+machine shuts down
+
+
+۴− باید ازاد باشد (یعنی به کاربری از قبل اختصاص نداشته باشد)، قابلیت دیپلوی شدن رو داشته باشه در کنار ماشین های دیگه
+
+
+
+۵− ساب نت رو براش باید تعریف کنیم، از رنج ای پی که در دسترس هست اگه استاتیکه که ای پی بهش بدیم و گرنه داینامیک بهش ای پی بدیم، توی dhcp تعریفش کنیم، در سمت کلاینت و سرور هم باید تعریفش کنیم
